@@ -1,4 +1,4 @@
-function add(num1, num2) {
-    return num1 + num2;
+function add() {
+    return new Date();
 }
-add(2, 40);
+console.log(add())
