@@ -1,8 +1,8 @@
+"use strict";
 // sting type function
 function soo() {
     return "hello";
 }
-console.log(soo())
 soo();
 //number type
 function soo2() {

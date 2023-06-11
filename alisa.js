@@ -1,3 +1,3 @@
-var a = 30;
-var b = "hello";
-
+"use strict";
+const a = 30;
+const b = "hello";

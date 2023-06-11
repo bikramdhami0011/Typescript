@@ -1,3 +1,4 @@
+"use strict";
 var roll;
 (function (roll) {
     roll[roll["rakesh"] = 0] = "rakesh";

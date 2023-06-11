@@ -1,4 +1,5 @@
-function add() {
-    return new Date();
+"use strict";
+function add(num1, num2) {
+    return num1 + num2;
 }
-console.log(add())
+add(2, 40);
