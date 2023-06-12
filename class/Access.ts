@@ -1,14 +1,24 @@
 
-class Access {
-private name="bikram";
-   add(){
+// class Access {
+// private name="bikram";
+//    add(){
      
-   return this.dis();
-   }
-   private dis(){
-    return "hello bikram"
-   }
+//    return this.dis();
+//    }
+//    private dis(){
+//     return "hello bikram"
+//    }
+// }
+// const a=new Access();
+// console.log(a.add())
+class users {
+  name="bikram"
+  constructor() {
+  
+  }
+  add(){
+    return this.name;
+  }
 }
-const a=new Access();
-console.log(a.add())
+console.log(new users().add());
 
